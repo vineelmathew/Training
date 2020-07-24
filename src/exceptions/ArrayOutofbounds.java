@@ -11,5 +11,9 @@ public class ArrayOutofbounds {
 			e.printStackTrace();
 			System.out.println("caught the exception");
 		}
+		finally {
+			//closing or release the resources 
+			System.out.println(" I wil be executed always");
+		}
 	}
 }
