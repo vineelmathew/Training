@@ -2,7 +2,7 @@ package exceptions;
 
 public class CustomCheckedExceptionDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InvalidArgumentCheckedException {
 
 		CustomCheckedExceptionDemo demo = new CustomCheckedExceptionDemo();
 		Product product = null;
