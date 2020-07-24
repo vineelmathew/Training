@@ -11,17 +11,11 @@ public class CustomCheckedExceptionDemo {
 
 	}
 
-	public void display(Product product) {
+	public void display(Product product) throws InvalidArgumentCheckedException {
 		if (product == null) {
-			try {
 				InvalidArgumentCheckedException exception = new InvalidArgumentCheckedException("invalid argument");
 				throw exception;
-			} catch (Throwable e) {
-				e.printStackTrace();
-				System.out.println("product is null so no information to display");
-			return;
 			}
-		}
 		String id = product.getId();
 		String name = product.getName();
 		System.out.println("product =" + id + " " + name);
