@@ -1,7 +1,7 @@
 package multithreading;
 
 public class Nameclass {
-	synchronized public void callName() {
+	synchronized public void callName() {    // synchronized(this); //you can do it in this way also 
 		{
 			try
 			{
