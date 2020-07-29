@@ -26,7 +26,7 @@ public class CustomerMain {
 						// setac(Account ac)
 						// where object is passed directly
 		details.put(b1.getName(), b1);
-		details.put(b1.getName(), b1);
+		details.put(b2.getName(), b2);
 		details.put(r1.getName(), r1);
 		details.put(r2.getName(), r2);
 
@@ -53,6 +53,7 @@ public class CustomerMain {
 		String address = busc.getBusinessAddress();
 		String id = busc.getId();
 		Account act=Customer.getac();
+		System.out.println("******** BUSINESS CUSTOMERS********");
 		System.out.println("name is " + name + " address is " + address + " bank is " + id);
 		System.out.println("The balance is= "+act.getBalance()+" pancard is "+act.getPancard());
 	}
@@ -62,9 +63,9 @@ public class CustomerMain {
 		String address = regc.getHomeAddress();
 		String id = regc.getId();
 		Account act=Customer.getac();
+		System.out.println("******** REGULAR CUSTOMERS********");
 		System.out.println("name is " + name + " address is " + address + " bank is " + id);
 		System.out.println("The balance is= "+act.getBalance()+" pancard is "+act.getPancard());
-		System.out.println("name is " + name + " address is " + address + " bank is " + id);
 	}
 
 }
