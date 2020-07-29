@@ -1,5 +1,5 @@
 package accountpackage;
-
+import java.util.*;
 public class AccountMain {
 
 	public static void main(String[] args) {
@@ -12,6 +12,18 @@ public class AccountMain {
 		accountArray[1]=acc2;
 		accountArray[2]=acc3;
 		accountArray[3]=acc4;
+		List Alist=new ArrayList();
+		Alist.add(acc1);
+		Alist.add(acc2);
+		Alist.add(acc3);
+		Alist.add(acc4);
+		
+		
+		
+		
+		
+		
+		
 
 /*for (int i = 0; i < AccountArray.length; i++) {
 	Account Ac=AccountArray[i];
@@ -45,6 +57,12 @@ public class AccountMain {
 			
 			
 		}
+		
+		System.out.println("Printing using list");
+        for(int i=0;i<Alist.size();i++)
+        {
+        	System.out.println(Alist.get(i));
+        }
 		
 		
 		
