@@ -13,6 +13,8 @@ public class CustomerMain {
 	{
 		Account a1 = new Account(8793.323, "IU8U234427"); // for the balance and pancard
 		Account a2 = new Account(78632.5, "GW3R271234");
+		String pan1=a1.getPancard();
+		String pan2=a2.getPancard();
 		BusinessCustomer b1 = new BusinessCustomer("SBI", "VINEEL", "HYDERABAD"); // branch, name, location/address for
 																					// business customer
 		BusinessCustomer b2 = new BusinessCustomer("HDFC", "RUDRAPATI", "BANGALORE");
@@ -32,7 +34,7 @@ public class CustomerMain {
 		details.put(r2.getName(), r2);
 		Set<String> keys = details.keySet();
 		for (String key : keys) {
-			Customer current = details.get(key);
+			Customer current = details.get(key);	
 			boolean isB = current instanceof BusinessCustomer;
 			if (isB) {
 				BusinessCustomer busc = (BusinessCustomer) current;
@@ -45,7 +47,6 @@ public class CustomerMain {
 			}
 		}
 	}
-
 	public  void display(BusinessCustomer busc) {
 		String name = busc.getName();
 		String address = busc.getBusinessAddress();
