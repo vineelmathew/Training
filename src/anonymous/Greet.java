@@ -1,6 +1,6 @@
 package anonymous;
 
-public abstract class greet implements Igreet {
+public abstract class Greet implements Igreet {
 
 	public static void main(String[] args) {
 	Igreet g=new Igreet()

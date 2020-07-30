@@ -1,7 +1,7 @@
 package assignment3;
 
 public class BusinessCustomer extends Customer {
-	String businessAddress;
+	private String businessAddress;
 
 	public String getBusinessAddress() {
 		return businessAddress;

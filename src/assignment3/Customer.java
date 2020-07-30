@@ -3,9 +3,8 @@ package assignment3;
 public class Customer {
 	private String name;
 	private String id;
-    private static Account ac;
+    private  Account account;
 	public Customer(String id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
 	}
@@ -26,13 +25,16 @@ public class Customer {
 		this.name = name;
 	}
 	
-	public static Account getac()
+	public Account getAccount()
 	{
-		return ac;
+		return account;
 		
 	}
-	public void setac(Account ac)
+	public void setAccount(Account ac)
 	{
-		this.ac=ac;
+		this.account=ac;
 	}
+	
+
+	
 }

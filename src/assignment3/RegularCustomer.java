@@ -2,7 +2,7 @@ package assignment3;
 
 public class RegularCustomer extends Customer {
 
-	String homeAddress;
+	private String homeAddress;
 
 	public RegularCustomer(String id, String name, String homeAddress) {
 		super(id, name);

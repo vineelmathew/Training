@@ -5,7 +5,7 @@ public class Account {
 	private String pancard;
 	
 	public Account(double balance, String pancard) {
-		super();
+		//super();
 		this.balance = balance;
 		this.pancard = pancard;
 	}
