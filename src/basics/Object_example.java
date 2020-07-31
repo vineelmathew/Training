@@ -1,3 +1,4 @@
+package basics;
 
 public class Object_example {
 public void one()
