@@ -1,0 +1,16 @@
+functional interfaces are introduced in java 8 
+A functional interface in Java is an interface that contains 
+only a single abstract (unimplemented) method.
+
+Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces
+
+
+
+ANY INTERFACE CAN BE CALLED AS FUNCTIONAL INTERFACE IN JAVA
+WHERE IT IS HAS ONLY ONE METHOD. WITHOUT NO IMPLEMENTATION. 
+
+example:
+
+public interface MyFunctionalInterface {
+    public void execute();  // DECLARATION, there is no definition of execute.
+}
