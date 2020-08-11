@@ -22,13 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c543fa62-f39a-4ea8-9f00-a3617056a7a2" name="Default Changelist" comment="">
+    <list default="true" id="09ea5b5b-3b8e-4449-9c41-ec20bcb9a96f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../example servlets/src/main/java/com/dxctraining/HttpSessionExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example servlets/src/main/webapp/html1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../example servlets/src/main/webapp/html1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dxctraining/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/GetFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dxctraining/GetFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/Postform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/ServletInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/Servletcontext1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/Servletcontext2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxctraining/counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Dum.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxctraining/FirstServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/GetFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxctraining/GetFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Postform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxctraining/Postform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/ServletInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxctraining/ServletInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxctraining/counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Postform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/ServletInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Servletcontext1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Servletcontext2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/StudentMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxctraining/counter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -36,13 +51,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -54,7 +62,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1ffOcGQwn8xMEqbkLOkgmwmmdTi" />
+  <component name="ProjectId" id="1flYdQS1ZKmY2Ff4Fjwy1cDavEq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,48 +72,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.StudentMain">
-    <configuration name="Dum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dxctraining.Dum" />
-      <module name="servletdemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dxctraining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dxctraining.StudentMain" />
-      <module name="servletdemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dxctraining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Dum" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c543fa62-f39a-4ea8-9f00-a3617056a7a2" name="Default Changelist" comment="" />
-      <created>1596605758781</created>
+      <changelist id="09ea5b5b-3b8e-4449-9c41-ec20bcb9a96f" name="Default Changelist" comment="" />
+      <created>1596794234738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596605758781</updated>
+      <updated>1596794234738</updated>
     </task>
     <servers />
   </component>
@@ -119,40 +93,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1596621672814">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1596621672814" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1596606451325">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1596606451325" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1596633200932">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1596633200932" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1596633200932">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1596633200932" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1596633200932">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1596633200932" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1596633200932">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1596633200932" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1596632174165">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1596632174165" />
-    <state x="91" y="6" key="new project wizard" timestamp="1596606480861">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="91" y="6" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1596606480861" />
   </component>
 </project>

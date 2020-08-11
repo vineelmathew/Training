@@ -6,14 +6,15 @@ import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/getform")
+
+
+@WebServlet("/getform")// mapping of this path to this servlet class
 public class GetFormServlet extends HttpServlet{
 
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
         String usernameVal= request.getParameter("username");
          String passwordVal=request.getParameter("password");
          String languageVal=request.getParameter("language");
@@ -27,12 +28,9 @@ public class GetFormServlet extends HttpServlet{
         writer.println("username is "+ usernameVal+" password is "+passwordVal);
         writer.println("<div>");
         writer.println("Language You are using is "+languageVal);
-        writer.println("<a href='html1.html'>Go back to form </a>");
         writer.println("</div>");
+        writer.println("<a href='html1.html'>Go back to form </a>");
         String endHtml="</body> </html>";
         writer.println(endHtml);
-
-
-
     }
 }
